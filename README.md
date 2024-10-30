@@ -1,41 +1,92 @@
-# 👋 Hola, soy Yimy0109
 
-Soy un desarrollador apasionado por la tecnología y la programación. Me encanta crear soluciones innovadoras y aprender cosas nuevas.
 
----
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de GitHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #0366d6;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .skills, .projects, .contact {
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #0366d6;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #024b9b;
+        }
+        .profile-img {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
 
-## 🚀 Habilidades
+<div class="container">
+    <h1>👋 Hola, soy Yimy Moreno</h1>
+    <img src="https://mi-url-de-imagen.com/mi-imagen.jpg" alt="Perfil" class="profile-img">
+    <p>Soy un desarrollador apasionado por la tecnología y la programación. Me encanta crear soluciones innovadoras y aprender cosas nuevas.</p>
 
-- 🖥️ **Lenguajes**: JavaScript, Python, Java
-- 🌐 **Tecnologías**: React, Node.js, Django
-- 📊 **Herramientas**: Git, Docker, VSCode
+    <div class="skills">
+        <h2>🚀 Habilidades</h2>
+        <ul>
+            <li>🖥️ <strong>Lenguajes:</strong> JavaScript, Python, Java</li>
+            <li>🌐 <strong>Tecnologías:</strong> React, Node.js, Django</li>
+            <li>📊 <strong>Herramientas:</strong> Git, Docker, VSCode</li>
+        </ul>
+    </div>
 
----
+    <div class="projects">
+        <h2>🌟 Proyectos Destacados</h2>
+        <ul>
+            <li><strong>Proyecto 1:</strong> <a href="https://github.com/tuusuario/proyecto1" class="button">Ver Proyecto</a></li>
+            <li><strong>Proyecto 2:</strong> <a href="https://github.com/tuusuario/proyecto2" class="button">Ver Proyecto</a></li>
+        </ul>
+    </div>
 
-## 🌟 Proyectos Destacados
+    <div class="contact">
+        <h2>📫 ¿Cómo contactarme?</h2>
+        <p>💼 <a href="https://www.linkedin.com/in/tu-perfil" class="button">LinkedIn</a></p>
+        <p>✉️ <a href="mailto:tuemail@example.com" class="button">Correo Electrónico</a></p>
+    </div>
 
-| Proyecto | Descripción | Enlace |
-|----------|-------------|--------|
-| **Proyecto 1** | Una breve descripción del proyecto. | [Ver Proyecto](https://github.com/tuusuario/proyecto1) |
-| **Proyecto 2** | Otra breve descripción del proyecto. | [Ver Proyecto](https://github.com/tuusuario/proyecto2) |
+    <div class="social">
+        <h2>🔗 Mis redes</h2>
+        <p>
+            <a href="https://twitter.com/tuusuario" class="button">Twitter</a>
+            <a href="https://tu-blog.com" class="button">Blog</a>
+        </p>
+    </div>
+</div>
 
----
-
-## 📫 ¿Cómo contactarme?
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/tu-perfil)
-- ✉️ [Correo Electrónico](mailto:tuemail@example.com)
-
----
-
-## 🔗 Mis redes
-
-- [Twitter](https://twitter.com/tuusuario)
-- [Blog](https://tu-blog.com)
-
----
-
-![Perfil](https://mi-url-de-imagen.com/mi-imagen.jpg)
+</body>
+</html>
 
 <!---
 Yimy0109/Yimy0109 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
